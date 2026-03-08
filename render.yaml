@@ -5,7 +5,7 @@ services:
     plan: free
     rootDir: backend
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn --bind 0.0.0.0:$PORT enhanced_app:app"
+    start: "gunicorn --bind 0.0.0.0:$PORT enhanced_app:app"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.5
