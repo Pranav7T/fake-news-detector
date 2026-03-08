@@ -15,7 +15,7 @@ app = Flask(__name__)
 # Configure CORS for production
 CORS(app, resources={
     r"/*": {
-        "origins": ["http://localhost:3000", "https://*.onrender.com", "https://*.github.io"],
+        "origins": ["http://localhost:3000", "http://127.0.0.1:3000", "https://*.onrender.com", "https://*.github.io"],
         "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type", "Authorization"]
     }
