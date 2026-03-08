@@ -1,0 +1,233 @@
+{
+  "trusted_domains": {
+    "reuters.com": {
+      "trust_score": 95,
+      "category": "International News",
+      "description": "Global news agency with strict editorial standards"
+    },
+    "ap.org": {
+      "trust_score": 95,
+      "category": "International News",
+      "description": "Associated Press - Leading news agency"
+    },
+    "bbc.com": {
+      "trust_score": 90,
+      "category": "International News",
+      "description": "British Broadcasting Corporation - Public service broadcaster"
+    },
+    "cnn.com": {
+      "trust_score": 85,
+      "category": "International News",
+      "description": "Cable News Network - Major US news network"
+    },
+    "nytimes.com": {
+      "trust_score": 90,
+      "category": "International News",
+      "description": "The New York Times - Pulitzer-winning newspaper"
+    },
+    "washingtonpost.com": {
+      "trust_score": 88,
+      "category": "International News",
+      "description": "The Washington Post - Major US newspaper"
+    },
+    "wsj.com": {
+      "trust_score": 90,
+      "category": "International News",
+      "description": "The Wall Street Journal - Business-focused news"
+    },
+    "thehindu.com": {
+      "trust_score": 85,
+      "category": "Indian News",
+      "description": "The Hindu - Leading Indian newspaper"
+    },
+    "timesofindia.indiatimes.com": {
+      "trust_score": 75,
+      "category": "Indian News",
+      "description": "Times of India - Major Indian newspaper"
+    },
+    "indianexpress.com": {
+      "trust_score": 80,
+      "category": "Indian News",
+      "description": "The Indian Express - Leading Indian newspaper"
+    },
+    "hindustantimes.com": {
+      "trust_score": 75,
+      "category": "Indian News",
+      "description": "Hindustan Times - Major Indian newspaper"
+    },
+    "ndtv.com": {
+      "trust_score": 80,
+      "category": "Indian News",
+      "description": "NDTV - Leading Indian news channel"
+    },
+    "economictimes.indiatimes.com": {
+      "trust_score": 85,
+      "category": "Indian News",
+      "description": "Economic Times - Business news in India"
+    },
+    "nature.com": {
+      "trust_score": 95,
+      "category": "Science",
+      "description": "Nature - Leading scientific journal"
+    },
+    "science.org": {
+      "trust_score": 95,
+      "category": "Science",
+      "description": "Science - Leading scientific journal"
+    },
+    "techcrunch.com": {
+      "trust_score": 85,
+      "category": "Technology",
+      "description": "TechCrunch - Technology news and analysis"
+    },
+    "wired.com": {
+      "trust_score": 85,
+      "category": "Technology",
+      "description": "Wired - Technology and culture magazine"
+    },
+    "arstechnica.com": {
+      "trust_score": 90,
+      "category": "Technology",
+      "description": "Ars Technica - Technology news site"
+    },
+    "bloomberg.com": {
+      "trust_score": 90,
+      "category": "Business",
+      "description": "Bloomberg - Financial news and data"
+    },
+    "forbes.com": {
+      "trust_score": 85,
+      "category": "Business",
+      "description": "Forbes - Business and financial news"
+    },
+    "fortune.com": {
+      "trust_score": 85,
+      "category": "Business",
+      "description": "Fortune - Business magazine"
+    },
+    "businessinsider.com": {
+      "trust_score": 80,
+      "category": "Business",
+      "description": "Business Insider - Business news site"
+    },
+    "gov.in": {
+      "trust_score": 95,
+      "category": "Government",
+      "description": "Indian Government websites"
+    },
+    "gov": {
+      "trust_score": 95,
+      "category": "Government",
+      "description": "US Government websites"
+    },
+    "edu": {
+      "trust_score": 90,
+      "category": "Education",
+      "description": "Educational institutions"
+    },
+    "ac.in": {
+      "trust_score": 90,
+      "category": "Education",
+      "description": "Indian educational institutions"
+    },
+    "who.int": {
+      "trust_score": 95,
+      "category": "Health",
+      "description": "World Health Organization"
+    },
+    "cdc.gov": {
+      "trust_score": 95,
+      "category": "Health",
+      "description": "Centers for Disease Control and Prevention"
+    },
+    "nih.gov": {
+      "trust_score": 95,
+      "category": "Health",
+      "description": "National Institutes of Health"
+    },
+    "mayoclinic.org": {
+      "trust_score": 90,
+      "category": "Health",
+      "description": "Mayo Clinic - Medical research and care"
+    }
+  },
+  "suspicious_domains": {
+    "theonion.com": {
+      "trust_score": 20,
+      "category": "Satire",
+      "description": "The Onion - Satirical news site"
+    },
+    "clickhole.com": {
+      "trust_score": 20,
+      "category": "Satire",
+      "description": "ClickHole - Satirical content"
+    },
+    "dailycurrant.com": {
+      "trust_score": 15,
+      "category": "Fake News",
+      "description": "Daily Currant - Fake news site"
+    },
+    "empirenews.net": {
+      "trust_score": 15,
+      "category": "Fake News",
+      "description": "Empire News - Fake news site"
+    },
+    "nationalreport.net": {
+      "trust_score": 15,
+      "category": "Fake News",
+      "description": "National Report - Fake news site"
+    },
+    "worldnewsdailyreport.com": {
+      "trust_score": 15,
+      "category": "Fake News",
+      "description": "World News Daily Report - Fake news site"
+    },
+    "news-": {
+      "trust_score": 30,
+      "category": "Suspicious Pattern",
+      "description": "Domain with hyphen in news"
+    },
+    "-news": {
+      "trust_score": 30,
+      "category": "Suspicious Pattern",
+      "description": "Domain with hyphen in news"
+    },
+    "news24": {
+      "trust_score": 40,
+      "category": "Suspicious Pattern",
+      "description": "Generic news24 pattern"
+    },
+    "breakingnews": {
+      "trust_score": 35,
+      "category": "Suspicious Pattern",
+      "description": "Generic breaking news pattern"
+    },
+    "daily": {
+      "trust_score": 45,
+      "category": "Suspicious Pattern",
+      "description": "Generic daily news pattern"
+    },
+    "blog": {
+      "trust_score": 50,
+      "category": "Blog",
+      "description": "Blog platform - may contain opinion content"
+    },
+    "wordpress.com": {
+      "trust_score": 50,
+      "category": "Blog",
+      "description": "WordPress blog platform"
+    },
+    "blogspot.com": {
+      "trust_score": 50,
+      "category": "Blog",
+      "description": "Blogspot blog platform"
+    },
+    "medium.com": {
+      "trust_score": 60,
+      "category": "Blog",
+      "description": "Medium - Mixed quality content platform"
+    }
+  },
+  "version": "1.0",
+  "last_updated": "2026-03-07T15:39:47.944484"
+}
